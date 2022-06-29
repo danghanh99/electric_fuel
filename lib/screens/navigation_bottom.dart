@@ -1,6 +1,7 @@
 import 'package:bottom_nav_layout/bottom_nav_layout.dart';
 import 'package:electri_fuel/resource/gradient_text.dart';
 import 'package:electri_fuel/screens/home_screen.dart';
+import 'package:electri_fuel/screens/map_screen.dart';
 import 'package:electri_fuel/screens/settings_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -62,7 +63,7 @@ class _NavigationBottomState extends State<NavigationBottom> {
       body: BottomNavLayout(
         pages: [
           (_) => HomeScreen(),
-          (_) => HomeScreen(),
+          (_) => MapScreen(),
           (_) => SettingsScreen(),
         ],
         bottomNavigationBar: (currentIndex, onTap) => BottomNavigationBar(
