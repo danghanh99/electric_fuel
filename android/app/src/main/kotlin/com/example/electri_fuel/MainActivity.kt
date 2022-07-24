@@ -1,4 +1,4 @@
-package com.example.electri_fuel
+package com.novahub.LoveSpace
 
 import io.flutter.embedding.android.FlutterActivity
 

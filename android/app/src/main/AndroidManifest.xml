@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.electri_fuel">
+    package="com.novahub.LoveSpace">
    <application
         android:label="electri_fuel"
         android:name="${applicationName}"
@@ -30,5 +30,8 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        <meta-data
+            android:name="com.google.androi.geo.API_KEY"
+            android:value="AIzaSyAQUndNjIrr0wGt7e6HUHPWFaSLZkVv6ng" />
     </application>
 </manifest>
